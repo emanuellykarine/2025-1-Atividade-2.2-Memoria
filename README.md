@@ -70,12 +70,12 @@ A alocação ficará da seguinte forma:
  ### 4. Questões para Reflexão
 **1. Best-fit foi mais eficiente que first-fit ou worst-fit neste cenário?**
 
-    O algoritmo worst-fit é uma estratégia que tenta encontrar a maior partição livre disponível e alocar o processo a essa partição. Em comparação a esse, o algoritmo best-fit é mais eficiente pois evita grandes fragmentações e aproveita melhor os blocos disponíveis ao invés de procurar especificamente a maior partição livre disponível. Já o first-fit é a estratégia que escolhe o primeiro bloco disponível que suporte o processo, mas no exemplo acima a funcionalidade acaba sendo a mesma, visto que os blocos foram preenchidos em sequência.
+O algoritmo worst-fit é uma estratégia que tenta encontrar a maior partição livre disponível e alocar o processo a essa partição. Em comparação a esse, o algoritmo best-fit é mais eficiente pois evita grandes fragmentações e aproveita melhor os blocos disponíveis ao invés de procurar especificamente a maior partição livre disponível. Já o first-fit é a estratégia que escolhe o primeiro bloco disponível que suporte o processo, mas no exemplo acima a funcionalidade acaba sendo a mesma, visto que os blocos foram preenchidos em sequência.
 
 **2. Como a memória virtual evitou um deadlock?**
 
-    Um deadlock ocorre quando dois ou mais processos ficam bloqueados, esperando que um libere um recurso que o outro está utilizando. A memória virtual permite que processos que não cabem totalmente na RAM sejam armazenados no disco, o que possibilita que o sistema continue funcionando e executando os processos por meio da paginação.
+Um deadlock ocorre quando dois ou mais processos ficam bloqueados, esperando que um libere um recurso que o outro está utilizando. A memória virtual permite que processos que não cabem totalmente na RAM sejam armazenados no disco, o que possibilita que o sistema continue funcionando e executando os processos por meio da paginação.
 
 **3. Qual o impacto da desfragmentação no desempenho do sistema?**
 
-    A desfragmentação melhora a utilização da memória, permitindo que novos processos sejam carregados caso haja espaço total suficiente, mas distribuído de forma fragmentada. No aspecto negativo, a desfragmentação consome tempo e recursos, pois os dados precisam ser copiados de um lugar para outro na RAM.
+A desfragmentação melhora a utilização da memória, permitindo que novos processos sejam carregados caso haja espaço total suficiente, mas distribuído de forma fragmentada. No aspecto negativo, a desfragmentação consome tempo e recursos, pois os dados precisam ser copiados de um lugar para outro na RAM.
