@@ -9,11 +9,6 @@
 - professor: [Leonardo A. Minora](https://github.com/leonardo-minora)
 - Repositótio do aluno: [Emanuelly Karine F. dos Santos](https://github.com/emanuellykarine)
 
-## Tarefas do aluno
-1. Fork desse repositório e atualizar a linha 10 com o nome e link do github
-2. Ler a descrição da atividade
-3. Montar a resposta no final deste arquivo, no tópico **Resposta**
-
 ---
 
 ## Resposta
